@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -66,6 +67,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="frmPBR.aspx" />
+    <Content Include="house-without-chimney_icon-icons.com_68201.png" />
+    <Content Include="imgOficina.jpg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -77,6 +81,7 @@
   <ItemGroup>
     <Content Include="frmInicio.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="sign-question-icon_34359.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +91,13 @@
     </Compile>
     <Compile Include="frmInicio.aspx.designer.cs">
       <DependentUpon>frmInicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPBR.aspx.cs">
+      <DependentUpon>frmPBR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPBR.aspx.designer.cs">
+      <DependentUpon>frmPBR.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

@@ -69,7 +69,11 @@
     <Content Include="CSS\bootstrap.min.css" />
     <Content Include="CSS\estilos.css" />
     <Content Include="CSS\normalize.css" />
+    <Content Include="frmNivel1.aspx" />
+    <Content Include="frmPBR.aspx" />
+    <Content Include="house-without-chimney_icon-icons.com_68201.png" />
     <Content Include="id2PlanteamientoHistoria.aspx" />
+    <Content Include="imgOficina.jpg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -81,6 +85,7 @@
   <ItemGroup>
     <Content Include="frmInicio.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="sign-question-icon_34359.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +95,20 @@
     </Compile>
     <Compile Include="frmInicio.aspx.designer.cs">
       <DependentUpon>frmInicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmNivel1.aspx.cs">
+      <DependentUpon>frmNivel1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmNivel1.aspx.designer.cs">
+      <DependentUpon>frmNivel1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPBR.aspx.cs">
+      <DependentUpon>frmPBR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPBR.aspx.designer.cs">
+      <DependentUpon>frmPBR.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

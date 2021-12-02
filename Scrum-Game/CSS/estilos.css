@@ -31,6 +31,27 @@ html{
     background-size: cover;
     background-position:center;
 }
+.banner{
+    background: #000000;
+}
+.noticias{
+	background: #fff;
+	height: 225px;
+	width: 760px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.noticias .noticia1{
+	background: #999;
+	width: 250px;
+	height: 215px;
+	display: inline-block;
+	vertical-align: top;
+}
+
 
 @media (max-width: 400px){
 	.login{
